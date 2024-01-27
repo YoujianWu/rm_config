@@ -1,0 +1,9 @@
+can_motors:
+  - can_id: 2
+    can_bus: 0
+    name: "yaw_joint_motor"
+    type: "DM4310"
+  - can_id: 3
+    can_bus: 0
+    name: "pitch_joint_motor"
+    type: "DM4310"
