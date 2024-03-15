@@ -86,6 +86,10 @@ rm_manual:
       - controllers/robot_state_controller
     main_controllers:
       - controllers/legged_balance_controller
+      - controllers/orientation_controller
+      - controllers/gimbal_controller
+      - controllers/shooter_controller
+      - controllers/cover_controller
     calibration_controllers:
       - controllers/leg_lf_calibration_controller
       - controllers/leg_lb_calibration_controller
